@@ -47,5 +47,5 @@ const responseGoogle = (response) => {
   );
   ReactDOM.render(
       <App />,
-      document.getElementById("react-target")
+      document.getElementsByClassName("buttons-wrapper")
   );
